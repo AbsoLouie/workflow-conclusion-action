@@ -1,4 +1,4 @@
-name: Workflow Conclusion Action
+name: Workflow Conclusion Status
 
 description: (Fork of technote-space/workflow-conclusion-action) GitHub action to get workflow conclusion. Will have minimal updates.
 
