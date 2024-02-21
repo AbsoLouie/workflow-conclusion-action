@@ -1,12 +1,9 @@
 # Workflow Conclusion Action
 
-[![CI Status](https://github.com/technote-space/workflow-conclusion-action/workflows/CI/badge.svg)](https://github.com/technote-space/workflow-conclusion-action/actions)
-[![codecov](https://codecov.io/gh/technote-space/workflow-conclusion-action/branch/main/graph/badge.svg)](https://codecov.io/gh/technote-space/workflow-conclusion-action)
-[![CodeFactor](https://www.codefactor.io/repository/github/technote-space/workflow-conclusion-action/badge)](https://www.codefactor.io/repository/github/technote-space/workflow-conclusion-action)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/technote-space/workflow-conclusion-action/blob/main/LICENSE)
+*Read this in other languages: [English](README.md)
 
-*Read this in other languages: [English](README.md), [日本語](README.ja.md).*
-
+Forked from [technote-space/workflow-conclusion-action](https://github.com/technote-space/workflow-conclusion-action) 
+Will have minimal updates.
 GitHub action to get workflow conclusion.
 
 ## Table of Contents
@@ -16,10 +13,12 @@ GitHub action to get workflow conclusion.
 <details>
 <summary>Details</summary>
 
-- [Usage](#usage)
-  - [Success](#success)
-  - [Failure](#failure)
-- [Author](#author)
+- [Workflow Conclusion Action](#workflow-conclusion-action)
+  - [Table of Contents](#table-of-contents)
+  - [Usage](#usage)
+    - [Success](#success)
+    - [Failure](#failure)
+  - [Author](#author)
 
 *generated with [TOC Generator](https://github.com/technote-space/toc-generator)*
 
@@ -61,7 +60,7 @@ jobs:
     steps:
         # run this action to get the workflow conclusion
         # You can get the conclusion via env (env.WORKFLOW_CONCLUSION)
-      - uses: technote-space/workflow-conclusion-action@v3
+      - uses: AbsoLouie/workflow-conclusion-status@v1.0.0
 
         # run other action with the workflow conclusion
       - uses: 8398a7/action-slack@v3
@@ -85,5 +84,4 @@ Slack action step is skipped because all jobs are success.
 Slack action step has been executed even if some jobs were skipped.
 
 ## Author
-[GitHub (Technote)](https://github.com/technote-space)  
-[Blog](https://technote.space)
+[GitHub (AbsoLouie)](https://github.com/AbsoLouie)
