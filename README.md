@@ -1,13 +1,6 @@
-# Workflow Conclusion Action
+# Workflow Conclusion Status
 
-[![CI Status](https://github.com/technote-space/workflow-conclusion-action/workflows/CI/badge.svg)](https://github.com/technote-space/workflow-conclusion-action/actions)
-[![codecov](https://codecov.io/gh/technote-space/workflow-conclusion-action/branch/main/graph/badge.svg)](https://codecov.io/gh/technote-space/workflow-conclusion-action)
-[![CodeFactor](https://www.codefactor.io/repository/github/technote-space/workflow-conclusion-action/badge)](https://www.codefactor.io/repository/github/technote-space/workflow-conclusion-action)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/technote-space/workflow-conclusion-action/blob/main/LICENSE)
-
-*Read this in other languages: [English](README.md), [日本語](README.ja.md).*
-
-GitHub action to get workflow conclusion.
+Fork of [technote-space/workflow-conclusion-action](https://github.com/technote-space/workflow-conclusion-action) GitHub action to get workflow conclusion. 
 
 ## Table of Contents
 
@@ -16,12 +9,12 @@ GitHub action to get workflow conclusion.
 <details>
 <summary>Details</summary>
 
-- [Usage](#usage)
-  - [Success](#success)
-  - [Failure](#failure)
-- [Author](#author)
-
-*generated with [TOC Generator](https://github.com/technote-space/toc-generator)*
+- [Workflow Conclusion Status](#workflow-conclusion-status)
+  - [Table of Contents](#table-of-contents)
+  - [Usage](#usage)
+    - [Success](#success)
+    - [Failure](#failure)
+  - [Author](#author)
 
 </details>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -61,7 +54,7 @@ jobs:
     steps:
         # run this action to get the workflow conclusion
         # You can get the conclusion via env (env.WORKFLOW_CONCLUSION)
-      - uses: technote-space/workflow-conclusion-action@v3
+      - uses: AbsoLouie/workflow-conclusion-status@v1.0.1
 
         # run other action with the workflow conclusion
       - uses: 8398a7/action-slack@v3
@@ -75,15 +68,15 @@ jobs:
 ```
 
 ### Success
-![Success](https://raw.githubusercontent.com/technote-space/workflow-conclusion-action/images/success.png)
+![Success](https://raw.githubusercontent.com/AbsoLouie/workflow-conclusion-status/images/success.png)
 
 Slack action step is skipped because all jobs are success.
 
 ### Failure
-![Failure](https://raw.githubusercontent.com/technote-space/workflow-conclusion-action/images/failure.png)
+![Failure](https://raw.githubusercontent.com/AbsoLouie/workflow-conclusion-status/images/failure.png)
 
 Slack action step has been executed even if some jobs were skipped.
 
 ## Author
-[GitHub (Technote)](https://github.com/technote-space)  
+[GitHub (Technote)](https://github.com/AbsoLouie)  
 [Blog](https://technote.space)

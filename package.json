@@ -1,24 +1,22 @@
 {
-  "name": "@technote-space/workflow-conclusion-action",
-  "version": "3.0.3",
+  "name": "@AbsoLouie/workflow-conclusion-status",
+  "version": "1.0.1",
   "description": "GitHub action to get workflow conclusion.",
   "keywords": [
     "github",
     "github actions"
   ],
-  "homepage": "https://github.com/technote-space/workflow-conclusion-action",
+  "homepage": "https://github.com/AbsoLouie/workflow-conclusion-status",
   "bugs": {
-    "url": "https://github.com/technote-space/workflow-conclusion-action/issues"
+    "url": "https://github.com/AbsoLouie/workflow-conclusion-status/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/technote-space/workflow-conclusion-action.git"
+    "url": "https://github.com/AbsoLouie/workflow-conclusion-status.git"
   },
   "license": "MIT",
   "author": {
-    "name": "Technote",
-    "email": "technote.space@gmail.com",
-    "url": "https://technote.space"
+    "name": "AbsoLouie"
   },
   "files": [
     "lib",
