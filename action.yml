@@ -1,8 +1,8 @@
 name: Workflow Conclusion Action
 
-description: GitHub action to get workflow conclusion.
+description: (Fork of technote-space/workflow-conclusion-action) GitHub action to get workflow conclusion. Will have minimal updates.
 
-author: technote-space
+author: AbsoLouie
 
 inputs:
   GITHUB_TOKEN:
